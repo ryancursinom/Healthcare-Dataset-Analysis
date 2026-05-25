@@ -110,11 +110,11 @@ jupyter notebook
 
 ## Autores
 
-- Caio Marcos Ambrósio Maciel
-- Erick Santos Silva
-- João Pedro Araujo de Souza
-- Mariana Marrão Ferreira Felis
-- Ryan Cursino Moraes
+- [Caio Marcos Ambrósio Maciel](https://www.linkedin.com/in/caio-marcos-580822371/)
+- [Erick Santos Silva](https://github.com/derrixs)
+- [João Pedro Araujo de Souza](https://www.linkedin.com/in/joao-asouza/)
+- [Mariana Marrão Ferreira Felis](https://github.com/marianamarrao)
+- [Ryan Cursino Moraes](https://www.linkedin.com/in/ryan-cursino-moraes-b1877b392/)
 
 ---
 
