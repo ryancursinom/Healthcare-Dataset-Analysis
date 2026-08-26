@@ -9,8 +9,37 @@
 
 ### Estrutura visual
 
-[Descreva a grade, a ordem de leitura, os cartões, tabelas, filtros e áreas de destaque.]
+Segue o anexo como referência visual — o layout final deve seguir esse padrão de design.
 
+#### Identidade e paleta
+- Fundo em tom bege claro/nude (`#EDE3D8`) em todos os slides
+- Paleta de destaque em 4 cores sólidas, estilo terroso/orgânico:
+  - Verde escuro "Verde You" (`#5C6B4E`)
+  - Verde sálvia "Verde Fit" (`#A3AD84`)
+  - Marrom rosado "Marrom" (`#B3766F`)
+  - Bege claro "Bege" (`#EFE4D6`)
+- Preto/marrom escuro para textos de título e elementos de contraste
+- Logotipo/marca no canto superior esquerdo (ícone + nome da empresa) repetido em todos os slides
+- Pequenos quadrados coloridos nos cantos (superior/inferior) como marca d'água de identidade visual
+
+#### Tipografia
+- Títulos grandes em sans-serif bold
+- Corpo de texto pequeno, tom marrom acinzentado, com boa entrelinha
+- Números/estatísticas em destaque em fonte grande e bold
+
+#### Elementos recorrentes
+- **Cards com cantos arredondados**: blocos de cor sólida (verde escuro/verde sálvia/marrom rosado/bege) contendo ícone + título curto + descrição, com um botão circular de seta (↗) no canto inferior direito
+- **Tags/pills**: pequenas etiquetas arredondadas com texto curto (categorias, prazos, etc.)
+- **Ícones de linha simples** dentro de círculos ou quadrados, associados a cada item de lista
+- **Fotos com máscara arredondada**: imagens recortadas em formas orgânicas/arredondadas, usadas em pares ou blocos
+- **Listas numeradas em grid 2x3 ou 3x1**: cada item com número em círculo colorido, título e descrição curta
+- **Botões "LEARN MORE"** com seta, estilo pill, usados sobre fotos ou fundos escuros
+
+#### Layout geral
+- Slides de introdução/índice: título grande à esquerda, lista numerada com sublinhas descritivas
+- Slides de conteúdo: título + subtítulo no topo, corpo dividido em blocos/cards de largura igual (grid 3 colunas ou 2 colunas)
+- Slides de resultado/estatística: painel escuro (foto ou cor sólida) de um lado + cards de métricas do outro lado
+- Espaçamento generoso, hierarquia visual clara, estética orgânica e sofisticada, sem poluição visual
 ### Visualização recomendada
 
 | Informação | Componente ou gráfico | Codificação visual | Justificativa |
