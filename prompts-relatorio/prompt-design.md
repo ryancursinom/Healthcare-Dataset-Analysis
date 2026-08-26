@@ -55,7 +55,31 @@ Segue o anexo como referência visual — o layout final deve seguir esse padrã
 
 ### Acessibilidade e interação
 
-- [Descreva texto alternativo, contraste, legenda, filtro, ordenação ou estado necessário.]
+**Contraste e legibilidade**
+- Contraste mínimo AA (4.5:1 para texto, 3:1 para elementos gráficos) entre texto e fundo, especialmente nos cards coloridos (verde-lima, roxo, laranja)
+- Tamanho de fonte legível (mínimo 12-14px no corpo, hierarquia clara nos títulos)
+
+**Não depender só de cor**
+- Cada classificação (Simples/Moderada/Complexa) deve ter cor + ícone + rótulo textual junto (ex.: bolinha verde + "Simples")
+- Gráficos com padrões, texturas ou rótulos numéricos além da cor, para quem tem daltonismo
+
+**Texto alternativo**
+- Todo gráfico precisa de um texto alternativo (alt text) descrevendo o que ele mostra (ex.: "Gráfico de barras mostrando 12 programas Simples, 8 Moderados e 3 Complexos")
+- Tabelas com legenda explicando o conteúdo
+
+**Estrutura e navegação**
+- Hierarquia de headings correta (H1 → H2 → H3) para leitores de tela
+- Tabelas com cabeçalhos associados corretamente às colunas
+- Ordem de leitura lógica (tab order) se for HTML/PDF interativo
+
+**Interação (se for relatório interativo/dashboard)**
+- Filtros e ordenação da tabela acessíveis via teclado
+- Estados de foco visíveis (outline) em elementos clicáveis
+- Estado vazio claro quando não há dados ("Nenhum resultado encontrado para o filtro aplicado")
+
+**Formato do documento**
+- Se for PDF: usar tags de acessibilidade (PDF/UA), permitir seleção/cópia de texto (não como imagem)
+- Se for Markdown/HTML: usar elementos semânticos (tabelas com cabeçalho, figuras com legenda)
 
 ### Limitações
 
