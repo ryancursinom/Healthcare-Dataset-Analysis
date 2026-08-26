@@ -99,9 +99,6 @@ A classificação avalia quantas heurísticas o relatório viola e com que gravi
 - Se for PDF: usar tags de acessibilidade (PDF/UA), permitir seleção/cópia de texto (não como imagem)
 - Se for Markdown/HTML: usar elementos semânticos (tabelas com cabeçalho, figuras com legenda)
 
-### Limitações
-
-[Registre informações ausentes, ambiguidades ou elementos que não podem ser propostos sem confirmação.]
 
 # RESTRIÇÕES
 
