@@ -46,11 +46,29 @@ Segue o anexo como referência visual — o layout final deve seguir esse padrã
 |---|---|---|---|
 | [Métrica] | [Gráfico/tabela/card] | [Cor, rótulo e escala] | [Motivo] |
 
+### Heurísticas aplicadas (adaptadas para relatório estático)
+
+Como o relatório é um documento estático (sem navegação, filtros ou interação), as heurísticas de Nielsen foram adaptadas: a heurística de Controle e liberdade do usuário foi removida por não se aplicar a esse formato. Restam 9 heurísticas relevantes.
+
+| # | Heurística | Adaptação para relatório estático |
+|---|---|---|
+| 1 | Visibilidade do status do sistema | Período, fonte e data de referência dos dados estão visíveis no próprio relatório |
+| 2 | Correspondência com o mundo real | Linguagem e termos compreensíveis pro público-alvo, sem jargão técnico sem explicação |
+| 3 | Consistência e padrões | Mesma cor sempre significa a mesma coisa; mesmo estilo de card/tabela/tipografia do início ao fim |
+| 4 | Prevenção de erros | Dados nunca dependem só de cor para significado; unidades e escalas sempre explícitas |
+| 5 | Reconhecimento em vez de memorização | Legenda e rótulo sempre junto do gráfico/card, sem exigir que o leitor lembre o significado |
+| 6 | Flexibilidade e eficiência de uso | Hierarquia de leitura clara: resumo executivo em destaque no topo, detalhe técnico depois |
+| 7 | Design minimalista | Sem poluição visual — apenas o relevante para a decisão, sem 3D, sombra pesada ou gradiente decorativo |
+| 8 | Ajuda o leitor a identificar inconsistências | Dado ausente ou inconsistente é sinalizado com texto claro ("Dado não disponibilizado nas fontes autorizadas"), nunca omitido |
+| 9 | Documentação e rastreabilidade | Fonte, metodologia e data de geração visíveis em rodapé ou nota do documento |
+
 ### Regras de classificação
 
-- Simples: [limite configurado ou “Dado não disponibilizado nas fontes autorizadas”].
-- Moderada: [limite configurado ou “Dado não disponibilizado nas fontes autorizadas”].
-- Complexa: [limite configurado ou “Dado não disponibilizado nas fontes autorizadas”].
+A classificação avalia quantas heurísticas o relatório viola e com que gravidade:
+
+- **Simples**: viola 1 heurística, de forma cosmética — não compromete a leitura.
+- **Moderada**: viola 1 a 2 heurísticas de forma que dificulta a leitura, mas o dado ainda é encontrável.
+- **Complexa**: viola 3 ou mais heurísticas, ou qualquer violação que comprometa a decisão do leitor (dado ambíguo, sem fonte, ou visualização que engana).
 - Cada nível deve ser mostrado por cor, texto e ícone ou rótulo; nunca somente por cor.
 
 ### Acessibilidade e interação
@@ -81,9 +99,6 @@ Segue o anexo como referência visual — o layout final deve seguir esse padrã
 - Se for PDF: usar tags de acessibilidade (PDF/UA), permitir seleção/cópia de texto (não como imagem)
 - Se for Markdown/HTML: usar elementos semânticos (tabelas com cabeçalho, figuras com legenda)
 
-### Limitações
-
-[Registre informações ausentes, ambiguidades ou elementos que não podem ser propostos sem confirmação.]
 
 # RESTRIÇÕES
 
