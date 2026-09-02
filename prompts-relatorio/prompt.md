@@ -877,6 +877,12 @@ Cards de indicadores sem necessidade de informar a fonte, apenas o nome, valor e
 
 Indicadores e análises.
 
+## Composição de cada seção de KPI
+
+1. Cards com os principais dados númericos;
+2. Pelo menos um gráfico do respectivo KPI;
+3. Interpretação, análise e implicações.
+
 ## Readmissões, complicações e condições crônicas
 
 Dados + análise + perspectiva hospitalar.

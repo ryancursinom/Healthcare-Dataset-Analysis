@@ -12,12 +12,10 @@
 Segue o anexo como referência visual — o layout final deve seguir esse padrão de design.
 
 #### Identidade e paleta
-- Fundo em tom bege claro/nude (`#EDE3D8`) em todos os slides
-- Paleta de destaque em 4 cores sólidas, estilo terroso/orgânico:
-  - Verde escuro "Verde You" (`#5C6B4E`)
-  - Verde sálvia "Verde Fit" (`#A3AD84`)
-  - Marrom rosado "Marrom" (`#B3766F`)
-  - Bege claro "Bege" (`#EFE4D6`)
+- Fundo em tom azul claro (`#E8E8FD`) em todos os slides
+- Paleta de destaque em 4 cores sólidas, estilo pastel:
+  - Azul escuro (`#264C8D`)
+  - 
 - Preto/marrom escuro para textos de título e elementos de contraste
 - Logotipo/marca no canto superior esquerdo (ícone + nome da empresa) repetido em todos os slides
 - Pequenos quadrados coloridos nos cantos (superior/inferior) como marca d'água de identidade visual
